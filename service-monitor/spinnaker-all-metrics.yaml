@@ -1,0 +1,21 @@
+apiVersion: {{ printf "%s/v1" (default "monitoring.coreos.com") }}
+kind: ServiceMonitor
+metadata:
+  name: spinnaker-all-metrics
+  labels:
+    app: spin
+
+spec:
+  endpoints:
+  - port: http
+    honorLabels: true
+    interval: 10s
+    path: "/prometheus_metrics"
+
+  selector:
+    matchLabels:
+      app: spin
+      release: {{ template "prometheus.server.fullname" . }}
+  namespaceSelector:
+    any: true
+
