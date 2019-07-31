@@ -1,4 +1,4 @@
-apiVersion: {{ printf "%s/v1" (default "monitoring.coreos.com") }}
+apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
   name: spinnaker-all-metrics
