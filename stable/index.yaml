@@ -3,19 +3,19 @@ entries:
   demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-07-31T01:49:14.833842537Z
+    created: "2019-07-31T07:35:29.909790492Z"
     description: A Helm chart for Kubernetes
     digest: 6a5d7fc1e54559a9ecaff953519732ebc69a802afd31a3d7631a1dbec7327115
     name: demo
     urls:
-    - https://parkjinyong.github.io/my-charts/stable/demo-0.1.0.tgz
+    - https://eunzoo.github.io/my-charts/stable/demo-0.1.0.tgz
     version: 0.1.0
   prometheus:
   - apiVersion: v1
     appVersion: 2.11.1
-    created: 2019-07-31T01:49:14.836676287Z
+    created: "2019-07-31T07:35:29.911428441Z"
     description: Prometheus is a monitoring system and time series database.
-    digest: 8ba8d5bd998afd1a78aab73a1fb9d49f389061cb64d062fcf447a9143544d824
+    digest: 7c245fad294bd5ed981f06385272b7626f586a4e4d3693ee11a9e009c6cfc865
     engine: gotpl
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -33,12 +33,12 @@ entries:
     - https://github.com/kubernetes/kube-state-metrics
     tillerVersion: '>=2.8.0'
     urls:
-    - https://parkjinyong.github.io/my-charts/stable/prometheus-8.15.0.tgz
+    - https://eunzoo.github.io/my-charts/stable/prometheus-8.15.0.tgz
     version: 8.15.0
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2019-07-31T01:49:14.849087915Z
+    created: "2019-07-31T07:35:29.92034923Z"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: c15689897db0edeffedfb1c1b03120a92390abaafb92f9ee10610e951fb925a8
@@ -58,6 +58,6 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://parkjinyong.github.io/my-charts/stable/prometheus-operator-6.2.1.tgz
+    - https://eunzoo.github.io/my-charts/stable/prometheus-operator-6.2.1.tgz
     version: 6.2.1
-generated: 2019-07-31T01:49:14.833424775Z
+generated: "2019-07-31T07:35:29.909240521Z"
