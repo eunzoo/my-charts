@@ -18,4 +18,3 @@ spec:
       release: prometheus
   namespaceSelector:
     any: true
-
