@@ -15,7 +15,7 @@ spec:
   selector:
     matchLabels:
       app: spin
-      release: {{ template "prometheus.server.fullname" . }}
+      release: prometheus
   namespaceSelector:
     any: true
 
