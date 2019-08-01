@@ -3,7 +3,7 @@ entries:
   demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-01T05:21:09.982029428Z"
+    created: "2019-08-01T05:59:55.032463987Z"
     description: A Helm chart for Kubernetes
     digest: 6a5d7fc1e54559a9ecaff953519732ebc69a802afd31a3d7631a1dbec7327115
     name: demo
@@ -13,7 +13,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 2.11.1
-    created: "2019-08-01T05:21:09.983662993Z"
+    created: "2019-08-01T05:59:55.033987178Z"
     description: Prometheus is a monitoring system and time series database.
     digest: 7c245fad294bd5ed981f06385272b7626f586a4e4d3693ee11a9e009c6cfc865
     engine: gotpl
@@ -38,7 +38,7 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.31.1
-    created: "2019-08-01T05:21:09.99262544Z"
+    created: "2019-08-01T05:59:55.043629091Z"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: c15689897db0edeffedfb1c1b03120a92390abaafb92f9ee10610e951fb925a8
@@ -60,14 +60,14 @@ entries:
     urls:
     - https://eunzoo.github.io/my-charts/stable/prometheus-operator-6.2.1.tgz
     version: 6.2.1
-  spinnaker-monitoring:
+  service-monitor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-01T05:21:09.993914936Z"
+    created: "2019-08-01T05:59:55.043810035Z"
     description: A Helm chart for Kubernetes
-    digest: 9c577228dc6db2dceecce85968623a74c914f2937d0e5a02005a09d50b21411f
-    name: spinnaker-monitoring
+    digest: 9ea2cc1c685757a791e9fd1bc741af69b4ec7426b8f4b763142c824e43a3e5c1
+    name: service-monitor
     urls:
-    - https://eunzoo.github.io/my-charts/stable/spinnaker-monitoring-0.1.0.tgz
+    - https://eunzoo.github.io/my-charts/stable/service-monitor-0.1.0.tgz
     version: 0.1.0
-generated: "2019-08-01T05:21:09.98141274Z"
+generated: "2019-08-01T05:59:55.032001954Z"
