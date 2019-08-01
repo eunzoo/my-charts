@@ -14,5 +14,6 @@ spec:
       app: prometheus-redis-exporter
       release: my-redis-exporter
     namespaceSelector:
-      any: true
+      matchNames: spinnaker
+    #  any: true
 

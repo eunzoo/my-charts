@@ -13,7 +13,8 @@ spec:
     matchLabels:
       app: spin
     namespaceSelector:
-      any: true
+      matchNames: spinnaker
+  #    any: true
   endpoints:
   # "port" is string only. "targetPort" is integer or string.
   - targetPort: 8008
