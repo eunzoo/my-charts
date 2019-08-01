@@ -3,7 +3,7 @@ entries:
   demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-01T05:59:55.032463987Z"
+    created: "2019-08-01T07:18:17.954630245Z"
     description: A Helm chart for Kubernetes
     digest: 6a5d7fc1e54559a9ecaff953519732ebc69a802afd31a3d7631a1dbec7327115
     name: demo
@@ -13,7 +13,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 2.11.1
-    created: "2019-08-01T05:59:55.033987178Z"
+    created: "2019-08-01T07:18:17.956336856Z"
     description: Prometheus is a monitoring system and time series database.
     digest: 7c245fad294bd5ed981f06385272b7626f586a4e4d3693ee11a9e009c6cfc865
     engine: gotpl
@@ -38,10 +38,10 @@ entries:
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.31.1
-    created: "2019-08-01T05:59:55.043629091Z"
+    created: "2019-08-01T07:18:17.965549777Z"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
-    digest: c15689897db0edeffedfb1c1b03120a92390abaafb92f9ee10610e951fb925a8
+    digest: 0f42e8b2d047feddd464aab5422e2b68dfd05889b5940cf490996fffdaf00815
     engine: gotpl
     home: https://github.com/coreos/prometheus-operator
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -63,11 +63,11 @@ entries:
   service-monitor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-01T05:59:55.043810035Z"
+    created: "2019-08-01T07:18:17.965713572Z"
     description: A Helm chart for Kubernetes
     digest: 9ea2cc1c685757a791e9fd1bc741af69b4ec7426b8f4b763142c824e43a3e5c1
     name: service-monitor
     urls:
     - https://eunzoo.github.io/my-charts/stable/service-monitor-0.1.0.tgz
     version: 0.1.0
-generated: "2019-08-01T05:59:55.032001954Z"
+generated: "2019-08-01T07:18:17.953987205Z"

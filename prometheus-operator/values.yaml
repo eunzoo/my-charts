@@ -170,7 +170,9 @@ alertmanager:
   ## Configuration for Alertmanager service
   ##
   service:
-    annotations: {}
+    annotations:
+      service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "http"
+      service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
     labels: {}
     clusterIP: ""
 
@@ -184,9 +186,10 @@ alertmanager:
     externalIPs: []
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
+    servicePort: 80
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
   ## If true, create a serviceMonitor for alertmanager
   ##
@@ -1119,7 +1122,9 @@ prometheus:
   ## Configuration for Prometheus service
   ##
   service:
-    annotations: {}
+    annotations:
+      service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "http"
+      service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
     labels: {}
     clusterIP: ""
 
@@ -1141,9 +1146,10 @@ prometheus:
     ## Only use if service.type is "loadbalancer"
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
+    servicePort: 80
     ## Service type
     ##
-    type: ClusterIP
+    type: LoadBalancer
 
     sessionAffinity: ""
 
