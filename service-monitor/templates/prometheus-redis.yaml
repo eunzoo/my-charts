@@ -1,6 +1,7 @@
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
+  namespace: spinnaker
   name: prometheus-redis
   labels:
     app: prometheus-redis-exporter
@@ -14,6 +15,5 @@ spec:
       app: prometheus-redis-exporter
       release: my-redis-exporter
     namespaceSelector:
-      matchNames: spinnaker
-    #  any: true
+      any: true
 

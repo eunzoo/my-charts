@@ -1,6 +1,7 @@
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
+  namespace: spinnaker
   name: spinnaker-all-metrics
   labels:
     app: spin
@@ -13,8 +14,7 @@ spec:
     matchLabels:
       app: spin
     namespaceSelector:
-      matchNames: spinnaker
-  #    any: true
+      any: true
   endpoints:
   # "port" is string only. "targetPort" is integer or string.
   - targetPort: 8008
